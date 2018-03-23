@@ -28,7 +28,7 @@ wss:api.cloud-domain.com/v1
   id: 'random string',
   method: 'get',    // Follow http request method.
   uri: '/me?q=xx',  // Follow RESTful API path naming.
-  body: {
+  body: {           // There is no body member when the method is get or delete.
     xx: '...'
   }
 }
