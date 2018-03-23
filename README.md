@@ -4,10 +4,10 @@
 The device always connects to the cloud.  
 
 ## WebSocket Protocol
-The data serialization/deserialization way is [bson](http://bsonspec.org/).
+The data serialization/deserialization is [bson](http://bsonspec.org/).
 
 ### Connect to the server.
-wss:api.cloud-domain.com/v1
+wss://api.cloud-domain.com/v1
 ```js
 {
   headers: {
