@@ -46,10 +46,10 @@ wss://api.cloud-domain.com/v1
 }
 ```
 
-### Broadcast to the device.
+### Send the notification to the device.
 ```js
 {
-  type: 'broadcast',
+  type: 'notification',
   event: 'ENROLL.RECORD.ADDED',
   body: {
     xx: '...'
