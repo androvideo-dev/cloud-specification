@@ -21,7 +21,7 @@ wss://api.cloud-domain.com/v1
 }
 ```
 
-### Send the request from the device.
+### Send the request to the device or cloud.
 ```js
 {
   type: 'request',
@@ -34,7 +34,7 @@ wss://api.cloud-domain.com/v1
 }
 ```
 
-### Send the response to the device.
+### Send the response to the device or cloud.
 ```js
 {
   type: 'response',
